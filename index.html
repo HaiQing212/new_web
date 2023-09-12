@@ -3,60 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>海青flex layout</title>
-  <style>
-    body{
-        margin:0;
-        height: 100vh;
-        background-color: #eee;
-        }
-    * {
-        border: 1px solid black;
-      }
-    .flex{
-        display:flex;        
-    }
-    .white{
-        background-color: white;
-    }
-    .flex_main_area{
-        flex: 1;
-    }
-    .column_main{
-        flex-direction: column;
-    }
-  </style>  
+  <title>海青flex layout</title> 
 </head>
 <body class="flex">
-    <img src="图片1.png" width="200px" height="200px">
-    <!-- 侧边栏 -->
-    <div style="width:200px" class="white"></div>
-    <!-- 主区域 -->
-    <div class="flex_main_area">
-      <!-- 头部栏 -->
-      <div style="height: 60px" class="white"></div>
-      <!-- 内容区 -->
-      <div class="flex_main_area flex">
-          <!-- 左区 -->
-          <div style="flex:3" class="flex column_main"></div>
-              <!-- 数据区 -->
-              <div class="flex">
-                  <!-- 数据块 -->
-                  </div style="height: 100px" class="flex_main_area white"></div>
-                  </div style="height: 100px" class="flex_main_area white"></div>
-                  </div style="height: 100px" class="flex_main_area white"></div>
-                  </div style="height: 100px" class="flex_main_area white"></div>  
-              </div>
-              <!-- 列表区 -->
-              <div class="flex column_main"></div>
-      
-          <!-- 右区 -->
-          <div style="flex:3" class="flex column_main"></div>
-              <!-- 提示区 -->
-              <div style="height: 150px;" class="white"></div>
-              <!-- 消息区 -->
-              <div style="height: 300px;" class="white"></div>
-      </div>
-    </div>    
+    <img src="图片1.png" width="200px" height="200px">   
 </body>
 </html>
